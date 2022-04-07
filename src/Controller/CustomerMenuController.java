@@ -132,6 +132,7 @@ public class CustomerMenuController extends AdminMenuController {
         userIsLogined().getPurchaseTickets().remove(number - 1);
         userIsLogined().setUserMony(userIsLogined().getUserMony() + ticketPrice - amount);
         getCompony().setMoney(getCompony().getMoney() - ticketPrice + amount);
+        int i;
 
     }
 }
